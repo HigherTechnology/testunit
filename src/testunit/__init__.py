@@ -1,3 +1,4 @@
+from ._channels import channel
 
 
 class Fixture:
@@ -12,3 +13,4 @@ class Fixture:
 
 	def __del__(self):
 		self.tearDown()
+
